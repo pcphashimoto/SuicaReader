@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/SuicaReader" version="1.0.0" viewmodes="maximized">
+    <tizen:application id="4uobWzVeeA.SuicaReader" package="4uobWzVeeA" required_version="2.2"/>
+    <author href="http://tizen-cafe.jp/" email="s_hashimoto@pcp.co.jp">Satoru Hashimoto</author>
+    <content src="index.html"/>
+    <tizen:content-security-policy>style-src 'self' 'unsafe-inline' http://vlgothic.dicey.org;</tizen:content-security-policy>
+    <icon src="icon.png"/>
+    <name>SuicaReader</name>
+    <tizen:privilege name="http://tizen.org/privilege/nfc.tag"/>
+    <tizen:privilege name="http://tizen.org/privilege/nfc.common"/>
+    <tizen:setting screen-orientation="portrait" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>

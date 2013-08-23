@@ -125,7 +125,7 @@ var suica = {
 		})
 	},
 	getStation : function(line, station) {
-		if (line & station) {
+		if (line && station) {
 			if (stations[line] && stations[line][station]
 					&& stations[line][station][2]) {
 				return stations[line][station][2];
